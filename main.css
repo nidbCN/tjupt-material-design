@@ -1,20 +1,31 @@
 body {
-  background-color: #FFFFFF; /* global background color */
+  background-color: #ffffff; /* global background color */
 }
 
+/* Main content */
 .outer {
-  background-color: #FFFFFF; /* main card background color */
+  background-color: #ffffff; /* main card background color */
 }
 
 .head {
-    display: none;
+  display: none; /* hide head */
 }
 
+/* Main container */
+.mainouter {
+}
+
+/* App bar */
 #nav {
-    background-color: #6200EE;
+  background-color: #6200ee;
 }
 
-#mainmenu {
-    color: #FFFFFF;
-    opacity: 87%;
+#nav * {
+    color: rgba(255, 255, 255, 87%);
+}
+
+/* submit button */
+input, #btn, tbody tr td form input, tbody input#qr, #hbsubmit, #outer table .btn {
+    background-color: #6200ee;
+    color: rgba(255, 255, 255, 87%);
 }
