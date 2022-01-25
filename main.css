@@ -1,0 +1,20 @@
+body {
+  background-color: #FFFFFF; /* global background color */
+}
+
+.outer {
+  background-color: #FFFFFF; /* main card background color */
+}
+
+.head {
+    display: none;
+}
+
+#nav {
+    background-color: #6200EE;
+}
+
+#mainmenu {
+    color: #FFFFFF;
+    opacity: 87%;
+}
