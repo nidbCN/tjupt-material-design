@@ -2,13 +2,13 @@ body {
   background-color: #ffffff; /* global background color */
 }
 
+.head {
+    display: none; /* hide head */
+  }
+
 /* Main content */
 .outer {
   background-color: #ffffff; /* main card background color */
-}
-
-.head {
-  display: none; /* hide head */
 }
 
 /* Main container */
@@ -20,12 +20,28 @@ body {
   background-color: #6200ee;
 }
 
-#nav * {
-    color: rgba(255, 255, 255, 87%);
+/* App bar tab */
+#nav a {
+  color: rgba(255, 255, 255, 87%);
+}
+
+#nav ul.menu li a:hover,
+#nav ul.menu li.selected a,
+#nav ul.menu li.selected a:hover {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #ffffff;
 }
 
 /* submit button */
-input, #btn, tbody tr td form input, tbody input#qr, #hbsubmit, #outer table .btn {
-    background-color: #6200ee;
-    color: rgba(255, 255, 255, 87%);
+input,
+#btn,
+tbody tr td form input,
+tbody input#qr,
+#hbsubmit,
+#outer table .btn {
+  margin: 8px;
+  background-color: #6200ee;
+  color: rgba(255, 255, 255, 87%);
 }
